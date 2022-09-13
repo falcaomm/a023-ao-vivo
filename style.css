@@ -1,4 +1,149 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:Helvetica;
+}
+
+header {
+    border-bottom: 10px solid black;
+    padding: 0px 20px;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: orange;
+}
+
+main {
+    min-height: 80vh; 
+    /* sensacional */
+
+    background-color: wheat;
+    padding: 5px;
+    margin: 10px;
+}
+
+footer {
+    border-top: 10px solid orange;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: wheat;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.parte {
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 10px 20px;
+}
+
+#parte1 {
+    display: flex;
+    margin: 10px 0px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+p {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: wheat;
+}
+
+.p2 {
+    background-color: orange;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.figura{
+    height: 190px;
+    width: 160px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+img:hover{
+    border-radius: 80px;
+}
+
+.figura:hover{
+    box-shadow: 5px 5px 0px 0px  rgb(82, 40, 6);
+
+}
+
+button{
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0px;
+}
+
+button:active{
+    background-color: rgb(143, 66, 3);
+}
+
+button:hover{
+    background-color: rgb(143, 66, 3);
+}
+
+li:hover{
+    background-color: rgb(143, 66, 3);
+}
+
+p:hover{
+    border: 8px solid wheat;
+}
+
+.p2:hover {
+    border: 8px solid orange;
+}
+
+h2:hover{
+    font-size: 35px;
 }
