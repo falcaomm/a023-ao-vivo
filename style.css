@@ -41,7 +41,7 @@ footer {
     display: flex;
     gap: 10px;
     margin: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .parte {
@@ -87,6 +87,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: space-evenly;
 }
 
 .figura{
